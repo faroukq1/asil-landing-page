@@ -25,12 +25,12 @@ const Page = () => {
 
   return (
     <div className="relative mx-auto max-w-6xl xl:max-w-7xl px-8 h-screen flex flex-col justify-center items-center gap-8">
-      <Image src={image} alt="hero image" />
+      <Image src={image} alt="hero image" className="mt-16" />
       <div className="mt-8 flex flex-col items-center gap-4">
-        <h1 className="text-center text-5xl font-semibold">
+        <h1 className="text-center text-3xl lg:text-5xl font-semibold">
           This page is under maintenance.
         </h1>
-        <p className="text-center text-xl font-light w-3/4">
+        <p className="text-center text-lg lg:text-xl font-light w-3/4">
           We searched everywhere but couldn’t find what you’re looking for.
           Let’s find a better place for you to go.
         </p>
