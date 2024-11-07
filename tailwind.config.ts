@@ -6,6 +6,7 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     extend: {
       colors: {
@@ -14,5 +15,8 @@ export default {
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: ["light", "dark"],
+  },
+  plugins: [require("daisyui")],
 } satisfies Config;
